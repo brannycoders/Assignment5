@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin-top: 50px;
+    background-color: green;
+}
+.container{
+    height: 500px;
+    width: 1000px;
+    /* margin: 40px 20px; */
+    margin: auto;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    background-color: green;
+    position: relative;
+}
+.side{
+    height: 200px;
+    width: 100px;
+    margin-top: 150px;
+    border-style: solid;
+    border-width: 2px 2px 2px 0;
+    border-color: white;
+    /* background-color: brown; */
+}
+.small{
+    height: 90px;
+    width: 40px;
+    border-style: solid;
+    border-width: 2px 2px 2px 0;
+    border-color: white;
+    margin-top: 50px;
+}
+.inner{
+    height: 200px;
+    width: 100px;
+    margin-top: 150px;
+    border-style: solid;
+    border-width: 2px 0 2px 2px;
+    border-color: white; 
+    position: absolute; 
+    left: 898px;
+    bottom: 150px;
+}
+.base{
+    height: 90px;
+    width: 40px;
+    margin-top: 50px;
+    border-style: solid;
+    border-width: 2px 0 2px 2px;
+    border-color: white; 
+    margin-left: 60px;
+}
+.center{
+    height: 499px;
+    /* width: 100px; */
+    margin: 40px 20px;
+   right: 455px;
+   bottom: -40px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    background-color: brown;
+    position: absolute; 
+    /* z-index: 5px; */
+}
+.circle{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    /* background-color: white; */
+    position: absolute;
+    bottom: 200px;
+    left: 470px;
+    border-width: 1px;
+    border: solid;
+    border-color: white;
+    /* z-index: 2px; */
+}
+.arc{
+    height: 30px;
+    width: 70px;
+    position: absolute;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    /* background-color: brown; */
+    transform: rotate(90deg);
+    border: solid;
+    border-width: 2px 2px 0 2px;
+    bottom: 230px;
+    left: 80px;
+    border-color: white;
+}
+.seed{
+    height: 30px;
+    width: 70px;
+    position: absolute;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    /* background-color: brown; */
+    transform: rotate(270deg);
+    border: solid;
+    border-width: 2px 2px 0 2px;
+    bottom: 240px;
+    right: 82px;
+    border-color: white; 
+}
